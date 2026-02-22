@@ -19,7 +19,8 @@ Enables continuous, autonomous website development through a "baton" system:
 
 ## Prerequisites
 
-- Stitch MCP Server access
+- Access to the Stitch MCP Server
+- Access to the Dart MCP Server (Run: `node "d:\SHOP READY APP\stitch_auto_shop\dart-mcp\dist\index.js"`)
 - A `DESIGN.md` file (generate with the `design-md` skill)
 - A `SITE.md` file for project context
 

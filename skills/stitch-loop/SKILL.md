@@ -24,7 +24,9 @@ The Build Loop pattern enables continuous, autonomous website development throug
 ## Prerequisites
 
 **Required:**
-- Access to the Stitch MCP Server
+- Access to the Stitch MCP Server (Usually runs automatically via `stitch` CLI or extension)
+- Access to the Dart MCP Server (for code analysis/fixing):
+  - Run: `node "d:\SHOP READY APP\stitch_auto_shop\dart-mcp\dist\index.js"`
 - A Stitch project (existing or will be created)
 - A `DESIGN.md` file (generate one using the `design-md` skill if needed)
 - A `SITE.md` file documenting the site vision and roadmap
